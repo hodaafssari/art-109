@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Resume | Hoda Afssari | Digital Media Art Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body class="resume">
+    <a class= "btn download link" href="Hoda_Afssari_Resume .pdf">Download PDF</a>
     <!-- //  INTRO  // -->
     <header>
       <div class="content-wrapper"> 
@@ -19,7 +23,7 @@
 
     <main class="content-wrapper">
       <!-- //  PROFILE  // -->
-      <section>
+      <section class="resume-section"> 
         <!-- Start content edits below this line. -->
         <h2>Profile</h2>
         <p>Hoda Afssari is a Deputy Ar  ea Manager, Design Assistant, Student, and Art Enthusiast based in the Bay Area, CA. With a diverse background in management and design, Hoda combines her passion for creativity with leadership to drive innovative projects. She is actively pursuing her studies while contributing to various design initiatives. </a>
@@ -30,25 +34,17 @@
       </section>
 
       <!-- //  PROJECTS  // -->
-      <section>
+      <section class="resume-section"  class="project-item">
         <!-- Start content edits below this line. -->
         <h2>Projects</h2>
         <p>To see some of my projects visit my previous portfolio at https://hodaafssari.myportfolio.com/ </p>
 
-        <!-- To add more items, copy this whole <section></section> block
-        <section>
-          <img src="" srcset="" alt="description of image" width="" height="">
-          <h3>Project Name</h3>
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          link to project 
-          <a href="#" target="_blank">Link</a>
-         additional links, e.g. newsletter 
-          <a href="#" target="_blank">Another link</a>
-        </section> -->
-        <img src="images/project-biz-cards-500px.jpg" srcset="images/project-biz-cards-1000px.jpg 2x " alt="description of image" width="" height=""
- alt= "Christinas Project" width="" height="">
-
-        <!-- End content edits here. -->
+      <div class="prokect-wrapper">
+        <section  class="project-item">
+        <img src="images/project-biz-cards-500px.jpg" srcset="images/project-biz-cards-1000px.jpg 2x " alt="description of image" width="" height="">
+      </div>
+  
+->
       </section>
 
       <!-- //  WORK EXPERIENCE  // -->
@@ -58,11 +54,17 @@
         <p>Hoda Afssari has a versatile background in management, marketing, sales, and creative design across multiple organizations, contributing to significant fundraising and project management success.</p>
         
         <!-- Work Experience Item 1 -->
-        <section>
+        <section class="work-item">
+          <div class="work-details">
           <h3>Deputy Area Manager</h3>
           <p>Helping Hand For Relief and Development, Northern California</p>
           <p>August 2021 - Present</p>
+        </div>
+
+        <div class="work-summary">
           <p>Data entry and admin/clerical duties, raising office monetary donations by 20% through proactive event management and outreach efforts.</p>
+        </div>
+         
           <ul>
             <li>Arranged and booked fundraising events.</li>
             <li>Coordinated monetary and item donations to needy countries.</li>
@@ -72,11 +74,18 @@
         </section>
         
         <!-- Work Experience Item 2 -->
-        <section>
+
+          <section class="work-item">
+            <div class="work-details">
           <h3>Marketing and Sales</h3>
           <p>Kisa Kids, San Jose</p>
           <p>2018 - 2022</p>
+
+        </div >
+
+        <div class="work-summary">
           <p>Contributed to customer assistance, sales, and marketing efforts, improving merchandising displays and fundraising results.</p>
+        </div>
           <ul>
             <li>Restocked merchandise and materials, ensuring attractive displays to highlight new styles.</li>
             <li>Assisted with customer sales, marketing, and fundraising efforts.</li>
@@ -84,23 +93,33 @@
         </section>
         
         <!-- Work Experience Item 3 -->
-        <section>
+        <section class="work-item">
+          <div class="work-details">
           <h3>Executive Assistant</h3>
           <p>Decor In a Box LLC, Bay Area</p>
           <p>May 2021 - Present</p>
+
+        </div >
+
+        <div class="work-summary">
           <p>Oversaw client communications, project developments, and creative design for large-scale public and private events.</p>
-          <ul>
+        </div>
+        <ul>
             <li>Produced creative print materials and multimedia designs.</li>
             <li>Designed, assembled, and implemented concept art decorations.</li>
           </ul>
         </section>
         
         <!-- Work Experience Item 4 -->
-        <section>
+        <section class="work-item">
+          <div class="work-details">
           <h3>Head of Marketing Design/Content Creator</h3>
           <p>YouthInU, Virtual</p>
           <p>2020 - 2021</p>
+        </div>
+
           <p>Led marketing design and content creation for online platforms, ensuring a consistent flow of creative projects on a weekly basis.</p>
+          </div>
           <ul>
             <li>Assisted with website and social media design.</li>
             <li>Led video production, including editing and shooting.</li>
@@ -112,18 +131,18 @@
         <!-- Start Education Section -->
         <h2>Education</h2>
         
-        <section>
+        <section class="education-item">
           <h3>San Jose State University - San Jose, CA</h3>
           <p>BFA in Digital Media Art and Minor in Psychology, August 2020 - May 2024</p>
           <p>CADRE Member, Honor Roll, 3.7 GPA overall.</p>
         </section>
         
-        <section>
+        <section class="education-item">
           <h3>Mission College - Santa Clara, CA</h3>
           <p>Dual Enrollment, 2018 - 2020</p>
         </section>
         
-        <section>
+        <section class="education-item">
           <h3>RISE Academy - San Jose, CA</h3>
           <p>High School Diploma, Magna Cum Laude, September 2017 - June 2020</p>
           <p>Honor Society Member, Student Council Member, 3.8 GPA.</p>
